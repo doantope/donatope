@@ -18,5 +18,7 @@ public class ConatctManager {
     public void clearContacts() {
         contactList = new Contact[0];
     }
+
+    //This is a new comment line I added
 }
 
