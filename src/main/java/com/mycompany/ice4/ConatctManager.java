@@ -8,7 +8,8 @@ public class ConatctManager {
     public ConatctManager(Contact[] contactList) { 
         this.contactList = contactList;
     }
-
+    
+    //Comment nov-26-2024
     public Contact findContact(String emailAddress) {
         for (Contact contact : contactList) {
             if (contact.getEmailAddress().equalsIgnoreCase(emailAddress)) {
