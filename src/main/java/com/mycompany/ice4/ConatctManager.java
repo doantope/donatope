@@ -2,7 +2,7 @@ package com.mycompany.ice4;
 public class ConatctManager {
 
 
-
+    //Comiting a second change
     private Contact[] contactList;
 
     public ConatctManager(Contact[] contactList) { 
