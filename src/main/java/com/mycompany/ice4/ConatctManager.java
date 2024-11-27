@@ -3,6 +3,8 @@ public class ConatctManager {
 
 
     //Comiting a second change
+
+    //This is a comment made on the Friend branch
     private Contact[] contactList;
 
     public ConatctManager(Contact[] contactList) { 
