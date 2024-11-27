@@ -1,5 +1,8 @@
 package com.mycompany.ice4;
 public class ConatctManager {
+
+
+
     private Contact[] contactList;
 
     public ConatctManager(Contact[] contactList) { 
@@ -14,6 +17,8 @@ public class ConatctManager {
         }
         return null;
     }
+    
+    
 
     public void clearContacts() {
         contactList = new Contact[0];
